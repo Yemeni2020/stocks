@@ -175,3 +175,4 @@ frappe.ui.form.on("Purchase Receipt Item", {
 		validate_sample_quantity(frm, cdt, cdn);
 	},
 });
+/**** */
