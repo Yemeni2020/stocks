@@ -5,5 +5,5 @@
 from frappe.model.document import Document
 
 
-class SupplyItemsRequests(Document):
+class SupplyItemsRequestss(Document):
 	pass
