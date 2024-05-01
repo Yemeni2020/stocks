@@ -1,0 +1,43 @@
+{
+ "actions": [],
+ "creation": "2024-04-21 17:33:01.116681",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "supplier",
+  "supplier_part_no"
+ ],
+ "fields": [
+  {
+   "fieldname": "supplier",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Supplier",
+   "options": "Suppliers",
+   "reqd": 1
+  },
+  {
+   "fieldname": "supplier_part_no",
+   "fieldtype": "Data",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "label": "Supplier Part Number",
+   "print_width": "200px",
+   "width": "200px"
+  }
+ ],
+ "istable": 1,
+ "links": [],
+ "modified": "2024-04-21 20:31:18.168942",
+ "modified_by": "Administrator",
+ "module": "Stocks",
+ "name": "Item Suppliers",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
